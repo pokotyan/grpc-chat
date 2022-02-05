@@ -11,7 +11,7 @@ services:
     build:
       context: server
     volumes:
-      - ./server:/grpc-chat
+      - ./server:/grpc-go-kit
     ports:
       - "50051:50051"
     depends_on:

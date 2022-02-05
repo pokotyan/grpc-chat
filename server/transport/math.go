@@ -2,10 +2,10 @@ package transport
 
 import (
 	"context"
-	"grpc-chat/service"
+	"grpc-go-kit/service"
 
-	"grpc-chat/endpoints"
-	"grpc-chat/pb"
+	"grpc-go-kit/endpoints"
+	"grpc-go-kit/pb"
 
 	"github.com/go-kit/kit/log"
 	gt "github.com/go-kit/kit/transport/grpc"

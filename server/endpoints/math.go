@@ -2,8 +2,8 @@ package endpoints
 
 import (
 	"context"
-	"grpc-chat/pb"
-	"grpc-chat/service"
+	"grpc-go-kit/pb"
+	"grpc-go-kit/service"
 
 	"github.com/go-kit/kit/endpoint"
 )

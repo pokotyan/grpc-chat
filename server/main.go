@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"grpc-chat/service"
+	"grpc-go-kit/service"
 	"net"
 	"os"
 	"os/signal"
@@ -10,8 +10,8 @@ import (
 
 	"google.golang.org/grpc/reflection"
 
-	"grpc-chat/pb"
-	"grpc-chat/transport"
+	"grpc-go-kit/pb"
+	"grpc-go-kit/transport"
 
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/log/level"

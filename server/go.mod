@@ -1,4 +1,4 @@
-module grpc-chat
+module grpc-go-kit
 
 go 1.15
 
